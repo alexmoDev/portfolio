@@ -1,0 +1,16 @@
+.main-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 10px solid black;
+    height: 700px;
+}
+
+.main-banner .wrapper {
+    
+}
+
+.main-banner .perfil {
+    max-height: 500px;
+    box-shadow: 10px 10px 0px black;
+}
