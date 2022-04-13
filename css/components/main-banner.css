@@ -2,15 +2,38 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-image: url(../../assets/img/banner-background.gif);
     border-bottom: 10px solid black;
     height: 700px;
 }
 
+@keyframes animation {
+    0% {transform: scale(1.0);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1.0);}
+}
+
+.main-banner .container {
+    display: inline-flex;
+    flex-direction: column;
+    animation: animation 2s infinite linear;
+}
+
+.main-banner .main-box {
+    margin-bottom: 38px;
+}
+
 .main-banner .wrapper {
-    
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.main-banner .main-button {
+    padding: 13px;
 }
 
 .main-banner .perfil {
     max-height: 500px;
     box-shadow: 10px 10px 0px black;
+    animation: animation 2.5s infinite linear;
 }
