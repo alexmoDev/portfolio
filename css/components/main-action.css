@@ -1,4 +1,4 @@
-.main-navegation {
+.main-action {
     display: inline-flex;
     align-items: center;
     font-family: 'Fira Code', monospace;
@@ -9,7 +9,7 @@
     margin-right: 30px;
 }
 
-.main-navegation::before {
+.main-action::before {
     content: "";
     height: 10px;
     width: 10px;
