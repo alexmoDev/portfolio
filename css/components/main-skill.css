@@ -1,0 +1,23 @@
+.main-skill {
+    display: inline-flex;
+    align-items: center;
+}
+
+.main-skill:nth-child(odd) {
+    margin-right: 100px;
+}
+
+.main-skill .langIcon {
+    margin-right: 25px;
+}
+
+.main-skill .title {
+    font-size: 25px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 16px;
+}
+
+.main-skill .progress {
+    
+}

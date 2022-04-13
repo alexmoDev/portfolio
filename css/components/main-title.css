@@ -4,3 +4,9 @@
     font-size: 30px;
     text-shadow: 4px 4px 0px black;
 }
+
+.main-title.-second {
+    font-size: 40px;
+    color: white;
+    text-shadow: none;
+}
