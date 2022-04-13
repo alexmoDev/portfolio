@@ -22,21 +22,3 @@
     font-family: 'Press Start 2P', cursive;
     margin-bottom: 16px;
 }
-
-.main-skill .progress {
-    -webkit-appearance: none;
-    height: 40px;
-    width: 320px;
-}
-
-::-webkit-progress-inner-element {
-    border: 5px solid black;
-}
-
-::-webkit-progress-bar {
-    background-color: white;
-}
-
-::-webkit-progress-value {
-    background-color: #7C5E99;
-}
