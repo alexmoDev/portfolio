@@ -1,9 +1,12 @@
 .main-card {
-    max-height: 280px;
     box-shadow: 10px 10px 0px white;
     transition: transform 300ms linear;
 }
 
 .main-card:hover {
     transform: scale(1.125);
+}
+
+.main-card img {
+    max-height: 280px;
 }
