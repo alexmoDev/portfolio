@@ -16,7 +16,7 @@
 .main-banner .container {
     display: inline-flex;
     flex-direction: column;
-    animation: animation 2s infinite linear;
+    animation: animation 2.3s infinite linear;
 }
 
 .main-banner .main-box {
@@ -35,5 +35,5 @@
 .main-banner .perfil {
     max-height: 500px;
     box-shadow: 10px 10px 0px black;
-    animation: animation 2.5s infinite linear;
+    animation: animation 2.7s infinite linear;
 }
