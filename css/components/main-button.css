@@ -8,7 +8,7 @@
     font-size: 20px;
     color: white;
     text-decoration: none;
-    transition: transform 250ms linear;
+    transition: transform 300ms linear;
 }
 
 .main-button:hover {
