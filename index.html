@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="css/components/main-progress.css">
     <link rel="stylesheet" href="css/components/project-container.css">
     <link rel="stylesheet" href="css/components/main-card.css">
-    <link rel="stylesheet" href="css/components/display-container.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/arrow-button.css">
     <link rel="stylesheet" href="css/components/main-pic.css">
     <link rel="stylesheet" href="css/components/main-text.css">
@@ -169,37 +169,42 @@
     <section class="main-section -bgPurple -bdBlack">
         <h3 class="main-title -second">Sobre</h3>
 
-        <div class="display-container">
+        <div class="main-carousel">
             <button class="arrow-button -left"><span class="content">voltar</span></button>
 
-            <figure class="main-pic">
-                <figcaption>Biology</figcaption>
+            <div class="wrapper">            
+                <div class="items">
+                    <figure class="main-pic">
+                        <figcaption>Biology</figcaption>
 
-                <div class="logo"><img src="assets/img/dna-pixelart.jpg" alt=""></div>
-            </figure>
+                        <div class="logo"><img src="assets/img/dna-pixelart.jpg" alt=""></div>
+                    </figure>
 
-            <figure class="main-pic">
-                <figcaption>Technology</figcaption>
+                    <figure class="main-pic">
+                        <figcaption>Technology</figcaption>
 
-                <div id="pc" class="logo"><img src="assets/img/pc-pixelart-removebg-preview.png" alt=""></div>
-            </figure>
-                
-            <figure class="main-pic">
-                <figcaption>Web Development</figcaption>
+                        <div id="pc" class="logo"><img src="assets/img/pc-pixelart-removebg-preview.png" alt=""></div>
+                    </figure>
+                        
+                    <figure class="main-pic">
+                        <figcaption>Web Development</figcaption>
 
-                <div class="logo"><img src="assets/img/firefox-pixelart.png" alt=""></div>
-            </figure>
+                        <div class="logo"><img src="assets/img/firefox-pixelart.png" alt=""></div>
+                    </figure>
 
-            <figure class="main-pic">
-                <figcaption>Game Development</figcaption>
+                    <figure class="main-pic">
+                        <figcaption>Game Development</figcaption>
 
-                <div class="logo"><img src="assets/img/console-pixelart.jpg" alt=""></div>
-            </figure>
-
-            <button class="arrow-button -right"> <span class="content">avançar</span></button>
+                        <div class="logo"><img src="assets/img/console-pixelart.jpg" alt=""></div>
+                    </figure>
+                </div>
+            </div>
+                <button class="arrow-button -right"> <span class="content">avançar</span></button>
         </div>
 
         <p class="main-text">Atualmente, graduando em Ciencias Biológicas, Alex é um entusiasta de tecnologia e autodidata em programação. Está explorando HTML, CSS e JavaScript para adentrar ao mundo Front-End, mas gosta de ir descobrindo seu caminho conforme o percorre. Possui grande admiração por produções em pixel art e interresses que transcendem o desenvlvimento web, com um sonho de desenvolver os próprios jogos como aqueles que fizeram, e ainda fazem parte de sua vida.</p>
     </section>
+
+    <script src="js/components/main-carousel.js"></script>
 </body>
 </html>

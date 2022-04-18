@@ -1,12 +1,13 @@
-.display-container {
+.main-carousel {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
     padding: 0px 90px;
     position: relative;
+    overflow: hidden;
 }
 
-.display-container::before {
+.main-carousel::before {
     box-sizing: border-box;
     content: '';
     height: 0px;
@@ -17,7 +18,7 @@
     right: 39.5px;
 }
 
-.display-container::after {
+.main-carousel::after {
     box-sizing: border-box;
     content: '';
     height: 0px;
@@ -28,15 +29,26 @@
     left: 0px;
 }
 
-.display-container .arrow-button {
+.main-carousel .arrow-button {
     position: absolute;
     bottom: 60px;
 }
 
-.display-container .arrow-button.-right {
+.main-carousel .arrow-button.-right {
     right: 15px;
 }
 
-.display-container .arrow-button.-left {
+.main-carousel .arrow-button.-left {
     left: 15px;
+}
+
+.main-carousel .wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .items {
+    display: flex;
+    justify-content: space-between;
+    transition: transform 750ms ease-in-out;
 }
