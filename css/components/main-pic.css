@@ -1,0 +1,37 @@
+.main-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F25A70;
+    font-size: 17px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 3px 3px 0px black;
+}
+
+.main-pic::before {
+    box-sizing: border-box;
+    content: '';
+    height: 40px;
+    width: 2px;
+    border: 2px dashed black;
+    position: absolute;
+    top: 29px;
+}
+
+.main-pic figcaption {
+    margin-bottom: 50px;
+}
+
+.main-pic img {
+    max-height: 140px;
+}
+
+.main-pic .logo {
+    background-color: #F25A70;
+    border: 5px solid black;
+    max-height: 140px;
+}
+
+.main-pic #pc {
+    background-color: #CEB02A;
+}

@@ -1,9 +1,9 @@
 .main-section {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: #F25A70;
     padding-top: 50px;
-    height: 700px;
     border-bottom: 10px solid #7C5E99;
 }
 
@@ -13,6 +13,10 @@
 
 .main-section.-bdPink {
     border-color: #F25A70;
+}
+
+.main-section.-skillSectionHeight {
+    height: 700px;
 }
 
 .main-section.-projectHeight {

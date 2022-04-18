@@ -1,0 +1,42 @@
+.display-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 0px 90px;
+    position: relative;
+}
+
+.display-container::before {
+    box-sizing: border-box;
+    content: '';
+    height: 0px;
+    width: 94%;
+    border: 2px solid black;
+    position: absolute;
+    top: 25px;
+    right: 39.5px;
+}
+
+.display-container::after {
+    box-sizing: border-box;
+    content: '';
+    height: 0px;
+    width: 100%;
+    border: 2px dashed black;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+
+.display-container .arrow-button {
+    position: absolute;
+    bottom: 60px;
+}
+
+.display-container .arrow-button.-right {
+    right: 15px;
+}
+
+.display-container .arrow-button.-left {
+    left: 15px;
+}
