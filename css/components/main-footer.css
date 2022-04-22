@@ -1,0 +1,32 @@
+.main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: black;
+}
+
+.main-footer .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.main-footer .logo {
+    border-radius: 20px;
+    border: 5px solid white;
+    background-color: white;
+    margin-right: 15px;
+}
+
+.main-footer img {
+    max-height: 45px;
+}
+
+.main-footer .title {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-shadow: 2.3px 2.3px 0px gray;
+    font-size: 19px;
+}
