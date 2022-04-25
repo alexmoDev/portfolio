@@ -14,3 +14,14 @@
 .main-button:hover {
     transform: scale(1.125);
 }
+
+.main-button.-form {
+    cursor: pointer;
+    font-family: 'Fira Code', monospace;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.main-button.-form:hover {
+    transform: scale(1.02);
+}

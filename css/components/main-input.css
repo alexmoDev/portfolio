@@ -1,0 +1,13 @@
+.main-input {
+    border: 5px solid black;
+    height: 50px;
+    font-size: 30px;
+    padding: 0px 7px;
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+}
+
+.main-input.-textArea {
+    height: 320px;
+    padding: 4px 7px;
+}

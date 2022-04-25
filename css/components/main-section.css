@@ -15,18 +15,18 @@
     border-color: #F25A70;
 }
 
-.main-section.-skillSectionHeight {
-    height: 700px;
-}
-
-.main-section.-projectHeight {
-    height: 470px;
-}
-
 .main-section.-bgPurple {
     background-color: #7C5E99;
 }
 
 .main-section.-bdBlack {
     border-color: black;
+}
+
+.main-section.-skillSectionHeight {
+    height: 700px;
+}
+
+.main-section.-projectHeight {
+    height: 470px;
 }

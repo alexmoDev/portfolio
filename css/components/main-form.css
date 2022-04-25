@@ -1,0 +1,12 @@
+.main-form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    background-color: #3A4042;
+}
+
+.main-form .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}

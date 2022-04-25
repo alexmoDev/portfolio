@@ -34,6 +34,9 @@
     <link rel="stylesheet" href="css/components/arrow-button.css">
     <link rel="stylesheet" href="css/components/main-pic.css">
     <link rel="stylesheet" href="css/components/main-text.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
 </head>
 <body>
@@ -205,6 +208,27 @@
 
         <p class="main-text">Atualmente, graduando em Ciencias Biológicas, Alex é um entusiasta de tecnologia e autodidata em programação. Está explorando HTML, CSS e JavaScript para adentrar ao mundo Front-End, mas gosta de ir descobrindo seu caminho conforme o percorre. Possui grande admiração por produções em pixel art e interresses que transcendem o desenvlvimento web, com um sonho de desenvolver os próprios jogos como aqueles que fizeram, e ainda fazem parte de sua vida.</p>
     </section>
+
+        <form class="main-form">
+            <legend class="main-title -second">Contatos</legend>
+
+            <fieldset class="field">
+                <label class="main-label" for="name">Nome</label>
+                <input class="main-input" type="text"  id="name" required>
+            </fieldset>
+            
+            <fieldset class="field">
+                <label class="main-label" for="email">Email</label>
+                <input class="main-input" type="email" id="email" required>
+            </fieldset>
+            
+            <fieldset class="field">
+                <label class="main-label" for="message">Mensagem</label>
+                <textarea class="main-input -textArea" id="message" required></textarea>
+            </fieldset>
+            
+            <button class="main-button -form" type="submit">Enviar</button>
+        </form>
     
     <footer class="main-footer">
         <a href="https://github.com/alexmoDev" target="_blanck" class="link">
